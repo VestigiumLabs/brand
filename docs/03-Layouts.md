@@ -1,3 +1,10 @@
+## Historique
+
+| Version | Date | Auteur | Description |
+|---------|------|--------|-------------|
+| 1.0 | 2026-07-08 | Designer | Création du document |
+| 1.0.1 | 2026-07-08 | Designer | Simplification rédactionnelle, suppression des anticipations et clarification des règles |
+
 ---
 title: Layouts
 version: 1.0.0
@@ -28,7 +35,7 @@ Chaque nouvelle page du laboratoire doit être construite à partir de ces layou
 
 # Principes
 
-Les pages suivent toujours le même rythme.
+Les pages suivent en règle générale le même rythme.
 
 Navigation
 
@@ -54,41 +61,19 @@ Cette structure ne doit être modifiée que lorsqu'un besoin fonctionnel le just
 
 # Largeur
 
-## Full Width
+Le Design System utilise trois largeurs de référence.
 
-Utilisée uniquement pour :
+Full Width
 
-- Hero
-- Bannière
-- Footer
+100 %
 
-Largeur :
+Container
 
-100%
+1280 px
 
----
+Reading
 
-## Content Width
-
-Toutes les sections utilisent une largeur maximale.
-
-```
-max-width : 1280 px
-```
-
-Le contenu est toujours centré.
-
----
-
-## Reading Width
-
-Les articles techniques utilisent une largeur plus faible.
-
-```
-max-width : 760 px
-```
-
-Cette largeur améliore le confort de lecture.
+760 px
 
 ---
 
@@ -110,7 +95,7 @@ Entre deux éléments liés :
 
 16 px
 
-Jamais d'espacement arbitraire.
+Par défaut pas d'espacement arbitraire.
 
 ---
 
@@ -146,7 +131,7 @@ Hauteur
 
 72 px
 
-Toujours visible.
+Toujours visible par défaut.
 
 Logo à gauche.
 
@@ -171,12 +156,9 @@ Titre
 
 Sous-titre
 
-Deux boutons
+Actions
 
-Illustration
-```
-
-Le Hero ne dépasse jamais une hauteur de 720 px.
+Par défaut le Hero ne dépasse pas une hauteur de 720 px.
 
 ---
 
@@ -192,7 +174,7 @@ Sous-titre
 Contenu
 ```
 
-Le titre est toujours aligné avec le contenu.
+Le titre est par défaut toujours aligné avec le contenu.
 
 ---
 
@@ -286,27 +268,9 @@ Bloc de code pleine largeur.
 
 ---
 
-# Dashboard futur
-
-Prévu pour :
-
-- agents
-- administration
-- statistiques
-
-Layout :
-
-Sidebar
-
-+
-
-Content
-
----
-
 # Footer
 
-Toujours identique.
+Toujours identique par défaut.
 
 ```
 Logo
@@ -360,7 +324,7 @@ Une colonne.
 
 # Règles
 
-Jamais plus de :
+Par défaut pas plus de :
 
 - 12 colonnes Desktop
 - 8 Tablet
@@ -376,23 +340,11 @@ Aucune page ne définit sa propre grille.
 
 Home
 
-Projects
-
-Research
-
 Documentation
 
 Article
 
 Project
-
-About
-
-Search
-
-404
-
-Legal
 
 Tous ces layouts doivent dériver des mêmes fondations.
 

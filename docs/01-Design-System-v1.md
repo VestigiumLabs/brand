@@ -1,3 +1,10 @@
+## Historique
+
+| Version | Date | Auteur | Description |
+|---------|------|--------|-------------|
+| 1.0 | 2026-07-08 | Designer | Création du document |
+| 1.0.1 | 2026-07-08 | Designer | Simplification rédactionnelle, suppression des anticipations et clarification des règles |
+
 # Design System v1
 ## VestigiumLabs
 
@@ -199,7 +206,7 @@ Le "V" est l'élément de reconnaissance principal.
 
 L'empreinte digitale représente l'investigation numérique.
 
-Les effets métalliques renforcent la perception de qualité.
+Les effets visuels du logo officiel font partie intégrante de son identité et doivent être conservés.
 
 ---
 
@@ -265,12 +272,12 @@ Elle ne doit jamais être découpée ni utilisée comme texture répétitive.
 
 | Nom | Hex | Usage |
 |------|------|------|
-| Midnight | #05080D | Fond principal |
-| Deep Navy | #0C1522 | Sections |
-| Steel Blue | #20344F | Cartes |
-| Accent Blue | #4F86D9 | Actions |
-| Ice Silver | #C7CCD4 | Texte secondaire |
-| White | #F5F7FA | Texte principal |
+| Background | #05080D | Fond principal |
+| Surface | #0C1522 | Sections |
+| Surface Secondary| #20344F | Cartes |
+| Primary | #4F86D9 | Actions |
+| Text Primary | #C7CCD4 | Texte secondaire |
+| Text Secondary | #F5F7FA | Texte principal |
 
 ---
 
@@ -424,7 +431,14 @@ angles légèrement arrondis
 
 monochrome
 
-Les icônes Lucide sont la référence.
+Les icônes utilisées doivent respecter les caractéristiques suivantes :
+
+- style outline ;
+- épaisseur uniforme ;
+- monochromes ;
+- angles légèrement arrondis.
+
+La bibliothèque utilisée est laissée au choix de l'implémentation.
 
 ---
 
@@ -484,6 +498,7 @@ Toute évolution doit :
 - être motivée ;
 - préserver la cohérence générale ;
 - être validée avant intégration.
+- Le Design System évolue uniquement lorsqu'un besoin concret apparaît.
 
 ---
 

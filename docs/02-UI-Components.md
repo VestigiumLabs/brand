@@ -1,3 +1,11 @@
+
+## Historique
+
+| Version | Date | Auteur | Description |
+|---------|------|--------|-------------|
+| 1.0 | 2026-07-08 | Designer | Création du document |
+| 1.0.1 | 2026-07-08 | Designer | Simplification rédactionnelle, suppression des anticipations et clarification des règles |
+
 ---
 title: UI Components
 version: 1.0.0
@@ -68,7 +76,7 @@ Seule leur disposition évolue.
 
 Déclencher une action.
 
-Un bouton ne sert jamais à naviguer vers une autre page si un lien suffit.
+Les actions sont généralement réalisées avec un bouton. La navigation est généralement réalisée avec un lien.
 
 ---
 
@@ -124,7 +132,7 @@ White
 
 Maximum :
 
-Un seul bouton Primary par section.
+Par défaut, une section comporte une seule action principale.
 
 ---
 
@@ -303,9 +311,8 @@ Toutes partagent la même structure.
 
 Élévation légère.
 
-Jamais de rotation.
+Les animations éventuelles doivent rester discrètes et améliorer la compréhension de l'interface.
 
-Jamais d'animation spectaculaire.
 
 ---
 
@@ -523,8 +530,6 @@ Champ spécialisé.
 
 Toujours précédé d'une icône.
 
-Recherche en temps réel si possible.
-
 ---
 
 # Avatar
@@ -574,7 +579,7 @@ Spinner
 
 Skeleton
 
-Préférer Skeleton pour les listes.
+Le choix dépend du contexte d'utilisation.
 
 ---
 
